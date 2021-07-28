@@ -206,6 +206,10 @@ def stop_following(follow_id):
 
     return redirect(f"/users/{g.user.id}/following")
 
+@app.route('/users/profile/<')
+
+
+
 
 @app.route('/users/profile', methods=["GET", "POST"])
 def edit_profile():
